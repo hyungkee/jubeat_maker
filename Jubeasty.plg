@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Jubeasty - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Heuristy\AppData\Local\Temp\RSP6973.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Jubeasty.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp"
+]
+Creating command line "cl.exe @C:\Users\Heuristy\AppData\Local\Temp\RSP6973.tmp" 
+Creating temporary file "C:\Users\Heuristy\AppData\Local\Temp\RSP6974.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Msimg32.lib winmm.lib fmodex_vc.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Jubeasty.pdb" /debug /machine:I386 /out:"Debug/Jubeasty.exe" /pdbtype:sept 
+".\Debug\Jubeasty.obj"
+]
+Creating command line "link.exe @C:\Users\Heuristy\AppData\Local\Temp\RSP6974.tmp"
+<h3>Output Window</h3>
+Compiling...
+Jubeasty.cpp
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(174) : warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(183) : warning C4018: '>' : signed/unsigned mismatch
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(188) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(265) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(286) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(287) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(350) : warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(370) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(392) : warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(413) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(428) : warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(433) : warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\Heuristy\Desktop\Jubeasty - Maker\Jubeasty.cpp(438) : warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+Linking...
+LINK : LNK6004: Debug/Jubeasty.exe not found or not built by the last incremental link; performing full link
+Creating command line "bscmake.exe /nologo /o"Debug/Jubeasty.bsc"  ".\Debug\Jubeasty.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Jubeasty.exe - 0 error(s), 13 warning(s)
+</pre>
+</body>
+</html>
